@@ -55,7 +55,7 @@
       <img class="circular2" src="images/computer.png" alt="computer">
       <h4>
         <p class="write2">I am a self-taught coder and have made several sites over the years.<br />
-          From 2012 to present day, I made a blog / news site that ranked within the top 25,000 <br>sites around the world! <br />
+          From 2012 to present day, I made a blog / news site that ranked within the top 25,000 sites <br />around the world (2013)!
           I always do my best to give positive end-user experiences.</p>
       </h4>
       <center>
@@ -101,100 +101,101 @@
   <div class="contact-me">
     <h1>Get In Touch</h1>
     <h3>If you have questions or would like a resume, let me know! I look forward to hearing from you! <br>You can see a brief work history <a href="workhistory.html">here.</a></h3>
-    <p>I'll respond as soon as I can, usually within a day. Click 'Contact Me'</p>
+    <p>I'll respond as soon as I can, usually within a day. Click 'Contact Me' - I look forward to hearing from you!</p>
     <br><br>
 
     <style>
-  .pushable {
-    position: relative;
-    border: none;
-    background: transparent;
-    padding: 0;
-    cursor: pointer;
-    outline-offset: 4px;
-    transition: filter 250ms;
-  }
-  .shadow {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 12px;
-    background: hsl(0deg 0% 0% / 0.25);
-    will-change: transform;
-    transform: translateY(2px);
-    transition:
-      transform
-      600ms
-      cubic-bezier(.3, .7, .4, 1);
-  }
-  .edge {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 12px;
-    background: linear-gradient(
-      to left,
-      hsl(340deg 100% 16%) 0%,
-      hsl(340deg 100% 32%) 8%,
-      hsl(340deg 100% 32%) 92%,
-      hsl(340deg 100% 16%) 100%
-    );
-  }
-  .front {
-    display: block;
-    position: relative;
-    padding: 12px 42px;
-    border-radius: 12px;
-    font-size: 1.25rem;
-    color: white;
-    background: hsl(345deg 100% 47%);
-    will-change: transform;
-    transform: translateY(-4px);
-    transition:
-      transform
-      600ms
-      cubic-bezier(.3, .7, .4, 1);
-  }
-  .pushable:hover {
-    filter: brightness(110%);
-  }
-  .pushable:hover .front {
-    transform: translateY(-6px);
-    transition:
-      transform
-      250ms
-      cubic-bezier(.3, .7, .4, 1.5);
-  }
-  .pushable:active .front {
-    transform: translateY(-2px);
-    transition: transform 34ms;
-  }
-  .pushable:hover .shadow {
-    transform: translateY(4px);
-    transition:
-      transform
-      250ms
-      cubic-bezier(.3, .7, .4, 1.5);
-  }
-  .pushable:active .shadow {
-    transform: translateY(1px);
-    transition: transform 34ms;
-  }
-  .pushable:focus:not(:focus-visible) {
-    outline: none;
-  }
-</style>
-<button class="pushable">
-  <span class="shadow"></span>
-  <span class="edge"></span>
-  <span class="front">
-    <a href="mailto:bernieomahony@me.com"><font color="white">CONTACT ME</font></a>
-  </span>
-</button>
+      .pushable {
+        position: relative;
+        border: none;
+        background: transparent;
+        padding: 0;
+        cursor: pointer;
+        outline-offset: 4px;
+        transition: filter 250ms;
+      }
+
+      .shadow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+        background: hsl(0deg 0% 0% / 0.25);
+        will-change: transform;
+        transform: translateY(2px);
+        transition:
+          transform 600ms cubic-bezier(.3, .7, .4, 1);
+      }
+
+      .edge {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+        background: linear-gradient(to left,
+            hsl(340deg 100% 16%) 0%,
+            hsl(340deg 100% 32%) 8%,
+            hsl(340deg 100% 32%) 92%,
+            hsl(340deg 100% 16%) 100%);
+      }
+
+      .front {
+        display: block;
+        position: relative;
+        padding: 12px 42px;
+        border-radius: 12px;
+        font-size: 1.25rem;
+        color: white;
+        background: hsl(345deg 100% 47%);
+        will-change: transform;
+        transform: translateY(-4px);
+        transition:
+          transform 600ms cubic-bezier(.3, .7, .4, 1);
+      }
+
+      .pushable:hover {
+        filter: brightness(110%);
+      }
+
+      .pushable:hover .front {
+        transform: translateY(-6px);
+        transition:
+          transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+      }
+
+      .pushable:active .front {
+        transform: translateY(-2px);
+        transition: transform 34ms;
+      }
+
+      .pushable:hover .shadow {
+        transform: translateY(4px);
+        transition:
+          transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+      }
+
+      .pushable:active .shadow {
+        transform: translateY(1px);
+        transition: transform 34ms;
+      }
+
+      .pushable:focus:not(:focus-visible) {
+        outline: none;
+      }
+    </style>
+    <button class="pushable">
+      <span class="shadow"></span>
+      <span class="edge"></span>
+      <span class="front">
+        <a href="mailto:bernieomahony@me.com">
+          <font color="white">CONTACT ME</font>
+        </a>
+      </span>
+    </button>
     <br>
     <br>
     <hr>
@@ -207,8 +208,8 @@
   <div class="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/in/bernie-o-mahony-a313837a/">LinkedIn</a>
 
-    &nbsp;&nbsp;<a class="footer-link" href="https://www.englishlesson.info/">English Lesson Info</a> (a work in progress)
-    <p>&copy; 2022 Bernard O'Mahony.</p>
+    &nbsp;&nbsp;<a class="footer-link" href="https://www.englishlesson.info/">English Lesson Info</a>
+    <p class="foottext">&copy; 2022 Bernard O'Mahony.</p>
   </div>
 
 </body>
